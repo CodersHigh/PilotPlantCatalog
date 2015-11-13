@@ -1,0 +1,10 @@
+framework module PilotPlant {
+  umbrella header "PilotPlant.h"
+
+  export *
+  module * { export * }
+}
+
+module PilotPlant.Swift {
+    header "PilotPlant-Swift.h"
+}

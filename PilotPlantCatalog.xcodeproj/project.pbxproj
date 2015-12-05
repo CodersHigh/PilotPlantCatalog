@@ -16,8 +16,10 @@
 		2C906FAA1BEA3ECF00F5A9D5 /* PPCatalog.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C906FA71BEA3ECF00F5A9D5 /* PPCatalog.storyboard */; };
 		2C906FAB1BEA3ECF00F5A9D5 /* RadCap_small_part.mov in Resources */ = {isa = PBXBuildFile; fileRef = 2C906FA81BEA3ECF00F5A9D5 /* RadCap_small_part.mov */; };
 		2C906FAE1BEA3F7B00F5A9D5 /* CityPicker.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C906FAD1BEA3F7B00F5A9D5 /* CityPicker.plist */; };
-		2C906FB21BEA3FBA00F5A9D5 /* PilotPlant.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C906FAF1BEA3FB000F5A9D5 /* PilotPlant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2C906FB51BEA407300F5A9D5 /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C906FB41BEA407300F5A9D5 /* PilotPlant.framework */; };
+		2CBD64221C12FF6A003399CC /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBD64211C12FF6A003399CC /* PilotPlant.framework */; };
+		2CBD64241C12FF71003399CC /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBD64231C12FF71003399CC /* UIViewController+Navigation.swift */; };
+		2CBD64251C12FF9D003399CC /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBD64211C12FF6A003399CC /* PilotPlant.framework */; };
+		2CBD64261C12FF9D003399CC /* PilotPlant.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBD64211C12FF6A003399CC /* PilotPlant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2C906FB31BEA3FBA00F5A9D5 /* Embed Frameworks */ = {
+		2CBD64271C12FF9D003399CC /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2C906FB21BEA3FBA00F5A9D5 /* PilotPlant.framework in Embed Frameworks */,
+				2CBD64261C12FF9D003399CC /* PilotPlant.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,8 +60,8 @@
 		2C906FA71BEA3ECF00F5A9D5 /* PPCatalog.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PPCatalog.storyboard; sourceTree = "<group>"; };
 		2C906FA81BEA3ECF00F5A9D5 /* RadCap_small_part.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = RadCap_small_part.mov; sourceTree = "<group>"; };
 		2C906FAD1BEA3F7B00F5A9D5 /* CityPicker.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityPicker.plist; sourceTree = "<group>"; };
-		2C906FAF1BEA3FB000F5A9D5 /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PilotPlant.framework; path = /Users/lingostar/Documents/PilotPlantWorkspace/Release/PilotPlant.framework; sourceTree = "<absolute>"; };
-		2C906FB41BEA407300F5A9D5 /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PilotPlant.framework; sourceTree = "<group>"; };
+		2CBD64211C12FF6A003399CC /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PilotPlant.framework; sourceTree = "<group>"; };
+		2CBD64231C12FF71003399CC /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C906FB51BEA407300F5A9D5 /* PilotPlant.framework in Frameworks */,
+				2CBD64221C12FF6A003399CC /* PilotPlant.framework in Frameworks */,
+				2CBD64251C12FF9D003399CC /* PilotPlant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +87,7 @@
 		2C906F7A1BEA3E3800F5A9D5 = {
 			isa = PBXGroup;
 			children = (
-				2C906FB41BEA407300F5A9D5 /* PilotPlant.framework */,
+				2CBD64211C12FF6A003399CC /* PilotPlant.framework */,
 				2C906F851BEA3E3800F5A9D5 /* PilotPlantCatalog */,
 				2C906F9A1BEA3E3800F5A9D5 /* PilotPlantCatalogUITests */,
 				2C906F841BEA3E3800F5A9D5 /* Products */,
@@ -105,6 +108,7 @@
 			children = (
 				2C906F861BEA3E3800F5A9D5 /* AppDelegate.swift */,
 				2C906F881BEA3E3800F5A9D5 /* ViewController.swift */,
+				2CBD64231C12FF71003399CC /* UIViewController+Navigation.swift */,
 				2C906FAC1BEA3EEB00F5A9D5 /* Resources */,
 				2C906FA71BEA3ECF00F5A9D5 /* PPCatalog.storyboard */,
 				2C906F8D1BEA3E3800F5A9D5 /* Assets.xcassets */,
@@ -143,7 +147,7 @@
 				2C906F7F1BEA3E3800F5A9D5 /* Sources */,
 				2C906F801BEA3E3800F5A9D5 /* Frameworks */,
 				2C906F811BEA3E3800F5A9D5 /* Resources */,
-				2C906FB31BEA3FBA00F5A9D5 /* Embed Frameworks */,
+				2CBD64271C12FF9D003399CC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CBD64241C12FF71003399CC /* UIViewController+Navigation.swift in Sources */,
 				2C906F891BEA3E3800F5A9D5 /* ViewController.swift in Sources */,
 				2C906F871BEA3E3800F5A9D5 /* AppDelegate.swift in Sources */,
 			);

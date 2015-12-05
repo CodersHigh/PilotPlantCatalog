@@ -23,11 +23,11 @@
                                         <rect key="frame" x="0.0" y="86" width="600" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uk3-cx-xOO" id="iym-kg-tVf">
-                                            <rect key="frame" x="0.0" y="0.0" width="567" height="53"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="53.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Appear" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="b47-rH-Mgz">
-                                                    <rect key="frame" x="15" y="10" width="53" height="20"/>
+                                                    <rect key="frame" x="15" y="11" width="52.5" height="19.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -35,7 +35,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="The most easiest way to show change" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WDi-Q6-p3r">
-                                                    <rect key="frame" x="15" y="30" width="200" height="14"/>
+                                                    <rect key="frame" x="15" y="30.5" width="199.5" height="13.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -54,11 +54,11 @@
                                         <rect key="frame" x="0.0" y="140" width="600" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yUs-a2-Mnq" id="UPY-3f-qFJ">
-                                            <rect key="frame" x="0.0" y="0.0" width="567" height="53"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="53.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Modal Context" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IMG-TC-TzN">
-                                                    <rect key="frame" x="15" y="10" width="106" height="20"/>
+                                                    <rect key="frame" x="15" y="11" width="106" height="19.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -66,7 +66,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Add sub-task on top of main task" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4tz-c6-4ZQ">
-                                                    <rect key="frame" x="15" y="30" width="175" height="14"/>
+                                                    <rect key="frame" x="15" y="30.5" width="174.5" height="13.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -85,11 +85,11 @@
                                         <rect key="frame" x="0.0" y="194" width="600" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HBf-Ju-KPb" id="QEG-Pe-sFx">
-                                            <rect key="frame" x="0.0" y="0.0" width="567" height="53"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="53.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Paging" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Byo-7N-ygI">
-                                                    <rect key="frame" x="15" y="10" width="50" height="20"/>
+                                                    <rect key="frame" x="15" y="11" width="50" height="19.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -97,7 +97,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Content view is scrolling horizontally" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6gM-KG-OdG">
-                                                    <rect key="frame" x="15" y="30" width="193" height="14"/>
+                                                    <rect key="frame" x="15" y="30.5" width="192.5" height="13.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -120,11 +120,11 @@
                                         <rect key="frame" x="0.0" y="270" width="600" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mMR-jn-xco" id="mSx-Dy-7CC">
-                                            <rect key="frame" x="0.0" y="0.0" width="567" height="53"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="53.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Web View" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GWO-78-x65">
-                                                    <rect key="frame" x="15" y="10" width="72" height="20"/>
+                                                    <rect key="frame" x="15" y="11" width="72" height="19.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -132,7 +132,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Load your web page" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1Ll-VF-B03">
-                                                    <rect key="frame" x="15" y="30" width="106" height="14"/>
+                                                    <rect key="frame" x="15" y="30.5" width="106" height="13.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -151,11 +151,11 @@
                                         <rect key="frame" x="0.0" y="324" width="600" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="You-NB-tm3" id="2OE-J3-dej">
-                                            <rect key="frame" x="0.0" y="0.0" width="567" height="53"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="53.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Map View" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GCt-RZ-UPf">
-                                                    <rect key="frame" x="15" y="10" width="71" height="20"/>
+                                                    <rect key="frame" x="15" y="11" width="71" height="19.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -163,7 +163,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Display your location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2dg-5M-F08">
-                                                    <rect key="frame" x="15" y="30" width="110" height="14"/>
+                                                    <rect key="frame" x="15" y="30.5" width="109.5" height="13.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -182,11 +182,11 @@
                                         <rect key="frame" x="0.0" y="378" width="600" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RsJ-Dm-mo8" id="Xjp-OP-dfH">
-                                            <rect key="frame" x="0.0" y="0.0" width="567" height="53"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="53.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Image Scroll View" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="N4m-cL-lE1">
-                                                    <rect key="frame" x="15" y="10" width="129" height="20"/>
+                                                    <rect key="frame" x="15" y="11" width="128.5" height="19.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -194,7 +194,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Display image as big as you want" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZU9-fn-LEH">
-                                                    <rect key="frame" x="15" y="30" width="174" height="14"/>
+                                                    <rect key="frame" x="15" y="30.5" width="173.5" height="13.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -209,15 +209,46 @@
                                             <segue destination="KIg-s2-qQJ" kind="show" id="vTw-vl-wB4"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="e4C-Is-Qf6" detailTextLabel="d3p-uX-C1J" rowHeight="54" style="IBUITableViewCellStyleSubtitle" id="gvi-UK-C0I">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="jqc-4R-Fev" detailTextLabel="CSz-BP-BsM" rowHeight="54" style="IBUITableViewCellStyleSubtitle" id="AtW-Ro-GqJ">
                                         <rect key="frame" x="0.0" y="432" width="600" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AtW-Ro-GqJ" id="N0V-sT-o1g">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="53.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Carousel View" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jqc-4R-Fev">
+                                                    <rect key="frame" x="15" y="11" width="103.5" height="19.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Photo carousel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CSz-BP-BsM">
+                                                    <rect key="frame" x="15" y="30.5" width="78.5" height="13.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <connections>
+                                            <segue destination="OQQ-fD-mD2" kind="show" id="uLu-Ky-kYo"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="e4C-Is-Qf6" detailTextLabel="d3p-uX-C1J" rowHeight="54" style="IBUITableViewCellStyleSubtitle" id="gvi-UK-C0I">
+                                        <rect key="frame" x="0.0" y="486" width="600" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gvi-UK-C0I" id="f3i-GG-YTv">
-                                            <rect key="frame" x="0.0" y="0.0" width="567" height="53"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="53.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Picker View" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="e4C-Is-Qf6">
-                                                    <rect key="frame" x="15" y="10" width="84" height="20"/>
+                                                    <rect key="frame" x="15" y="11" width="84" height="19.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -225,7 +256,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Give user selection" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="d3p-uX-C1J">
-                                                    <rect key="frame" x="15" y="30" width="101" height="14"/>
+                                                    <rect key="frame" x="15" y="30.5" width="100.5" height="13.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -241,14 +272,14 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="g4Z-1H-7PQ" detailTextLabel="531-Zz-PZ3" rowHeight="54" style="IBUITableViewCellStyleSubtitle" id="Ka7-bS-LZN">
-                                        <rect key="frame" x="0.0" y="486" width="600" height="54"/>
+                                        <rect key="frame" x="0.0" y="540" width="600" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ka7-bS-LZN" id="HRk-n2-sXm">
-                                            <rect key="frame" x="0.0" y="0.0" width="567" height="53"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="53.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="StopMotion View" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="g4Z-1H-7PQ">
-                                                    <rect key="frame" x="15" y="10" width="124" height="20"/>
+                                                    <rect key="frame" x="15" y="11" width="123.5" height="19.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -256,7 +287,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Play image sequence" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="531-Zz-PZ3">
-                                                    <rect key="frame" x="15" y="30" width="111" height="14"/>
+                                                    <rect key="frame" x="15" y="30.5" width="111" height="13.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -269,14 +300,14 @@
                                         <animations/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="XZR-4N-SMP" detailTextLabel="Ab8-E6-IuC" rowHeight="54" style="IBUITableViewCellStyleSubtitle" id="oCW-bj-vHi">
-                                        <rect key="frame" x="0.0" y="540" width="600" height="54"/>
+                                        <rect key="frame" x="0.0" y="594" width="600" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oCW-bj-vHi" id="QCh-K3-8x1">
-                                            <rect key="frame" x="0.0" y="0.0" width="567" height="53"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="53.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Movie View" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XZR-4N-SMP">
-                                                    <rect key="frame" x="15" y="10" width="83" height="20"/>
+                                                    <rect key="frame" x="15" y="11" width="83" height="19.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -284,7 +315,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Play movie" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ab8-E6-IuC">
-                                                    <rect key="frame" x="15" y="30" width="57" height="14"/>
+                                                    <rect key="frame" x="15" y="30.5" width="56.5" height="13.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -313,7 +344,7 @@
         <!--Picker View-->
         <scene sceneID="Rfo-S3-GUM">
             <objects>
-                <viewController title="Picker View" id="syb-ws-HzA" customClass="CHPickerViewController" customModule="PilotPlant" sceneMemberID="viewController">
+                <viewController title="Picker View" id="syb-ws-HzA" customClass="PickerScene" customModule="PilotPlantCatalog" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Xd5-AV-3Ea"/>
                         <viewControllerLayoutGuide type="bottom" id="THv-Hz-vue"/>
@@ -322,7 +353,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="249" verticalCompressionResistancePriority="752" misplaced="YES" image="Lombard" translatesAutoresizingMaskIntoConstraints="NO" id="LVW-8M-MjA">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="249" verticalCompressionResistancePriority="752" image="Lombard" translatesAutoresizingMaskIntoConstraints="NO" id="LVW-8M-MjA">
                                 <rect key="frame" x="0.0" y="96" width="600" height="267"/>
                                 <animations/>
                             </imageView>
@@ -335,7 +366,7 @@ Create a plist and set the name to customize</string>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Select the city of the picture" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUD-nT-8j0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select the city of the picture" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUD-nT-8j0">
                                 <rect key="frame" x="20" y="371" width="560" height="14"/>
                                 <animations/>
                                 <constraints>
@@ -345,7 +376,7 @@ Create a plist and set the name to customize</string>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <pickerView contentMode="scaleToFill" verticalHuggingPriority="249" verticalCompressionResistancePriority="751" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="osl-df-dWy">
+                            <pickerView contentMode="scaleToFill" verticalHuggingPriority="249" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="osl-df-dWy">
                                 <rect key="frame" x="0.0" y="393" width="600" height="207"/>
                                 <animations/>
                             </pickerView>
@@ -377,12 +408,12 @@ Create a plist and set the name to customize</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eKz-6Z-2kh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1517" y="570"/>
+            <point key="canvasLocation" x="1537" y="682"/>
         </scene>
         <!--Web View-->
         <scene sceneID="GKe-AI-WlG">
             <objects>
-                <viewController title="Web View" id="NpJ-PZ-KPu" customClass="CHWebViewController" customModule="PilotPlant" sceneMemberID="viewController">
+                <viewController title="Web View" id="NpJ-PZ-KPu" customClass="WebScene" customModule="PilotPlantCatalog" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GZU-mr-Irl"/>
                         <viewControllerLayoutGuide type="bottom" id="kVt-PI-bLJ"/>
@@ -424,10 +455,6 @@ Create a plist and set the name to customize</string>
                             </mask>
                         </variation>
                     </view>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="boolean" keyPath="localFile" value="NO"/>
-                        <userDefinedRuntimeAttribute type="string" keyPath="URL" value="www.apple.com"/>
-                    </userDefinedRuntimeAttributes>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dYF-t2-wMK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -436,7 +463,7 @@ Create a plist and set the name to customize</string>
         <!--Image Scroll View-->
         <scene sceneID="hSi-u9-dSt">
             <objects>
-                <viewController title="Image Scroll View" id="KIg-s2-qQJ" customClass="CHImageScrollViewController" customModule="PilotPlant" sceneMemberID="viewController">
+                <viewController title="Image Scroll View" id="KIg-s2-qQJ" customClass="ImageScrollScene" customModule="PilotPlantCatalog" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qyK-Yt-nIv"/>
                         <viewControllerLayoutGuide type="bottom" id="yKU-FL-P9P"/>
@@ -479,12 +506,61 @@ Create a plist and set the name to customize</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qvr-np-VgP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2936" y="-110"/>
+            <point key="canvasLocation" x="2928" y="-104"/>
+        </scene>
+        <!--Carousel-->
+        <scene sceneID="3L4-TL-dAi">
+            <objects>
+                <viewController title="Carousel" id="OQQ-fD-mD2" customClass="ImageScrollScene" customModule="PilotPlantCatalog" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q7M-BX-mqd"/>
+                        <viewControllerLayoutGuide type="bottom" id="jaX-XH-lCN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wRn-vn-DKt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Carousel , using ImageScrollScene, create ScrollView to fit the height of your image" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNy-Fw-cTx">
+                                <rect key="frame" x="20" y="86" width="560" height="41"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="WEQ-V2-98K"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSV-xI-Pme">
+                                <rect key="frame" x="0.0" y="145" width="600" height="150"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="7oi-0n-fjK"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="JNy-Fw-cTx" secondAttribute="trailing" id="HTU-bp-dQu"/>
+                            <constraint firstAttribute="trailing" secondItem="cSV-xI-Pme" secondAttribute="trailing" id="Qib-TT-mdf"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="JNy-Fw-cTx" secondAttribute="leading" id="bha-pp-T96"/>
+                            <constraint firstItem="cSV-xI-Pme" firstAttribute="leading" secondItem="wRn-vn-DKt" secondAttribute="leading" id="dED-J0-FFT"/>
+                            <constraint firstItem="cSV-xI-Pme" firstAttribute="top" secondItem="JNy-Fw-cTx" secondAttribute="bottom" constant="18" id="eSZ-hc-uzg"/>
+                            <constraint firstItem="JNy-Fw-cTx" firstAttribute="top" secondItem="q7M-BX-mqd" secondAttribute="bottom" constant="22" id="vqw-wP-a8W"/>
+                        </constraints>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="imageName" value="carousel"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ePh-dP-T2B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3591" y="-104"/>
         </scene>
         <!--Map View-->
         <scene sceneID="ncC-4n-81Q">
             <objects>
-                <viewController title="Map View" id="sRa-oe-ehU" customClass="CHMapViewController" customModule="PilotPlant" sceneMemberID="viewController">
+                <viewController title="Map View" id="sRa-oe-ehU" customClass="MapScene" customModule="PilotPlantCatalog" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nIs-XE-2Uh"/>
                         <viewControllerLayoutGuide type="bottom" id="zVm-oS-hCV"/>
@@ -517,6 +593,14 @@ Create a plist and set the name to customize</string>
                             <constraint firstItem="665-8D-c2D" firstAttribute="leading" secondItem="Kza-0f-62S" secondAttribute="leadingMargin" id="XCo-N6-tx3"/>
                         </constraints>
                     </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="point" keyPath="mapCenter">
+                            <point key="value" x="37.398612999999997" y="127.116405"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="size" keyPath="mapSize">
+                            <size key="value" width="0.0050000000000000001" height="0.0050000000000000001"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rbq-cf-Vm3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -525,7 +609,7 @@ Create a plist and set the name to customize</string>
         <!--Paging-->
         <scene sceneID="4U2-wJ-ni1">
             <objects>
-                <viewController title="Paging" id="sLn-Jz-DZN" customClass="CHPagingViewController" customModule="PilotPlant" sceneMemberID="viewController">
+                <viewController title="Paging" id="sLn-Jz-DZN" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xyo-CG-0hv"/>
                         <viewControllerLayoutGuide type="bottom" id="dC3-P8-hBy"/>
@@ -533,14 +617,26 @@ Create a plist and set the name to customize</string>
                     <view key="view" contentMode="scaleToFill" id="MTH-iF-FQb">
                         <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Prm-ah-FUb">
+                                <rect key="frame" x="0.0" y="8" width="600" height="218"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="aue-Ce-RIL" kind="embed" id="8DU-zt-PZU"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Prm-ah-FUb" firstAttribute="leading" secondItem="MTH-iF-FQb" secondAttribute="leading" id="CAs-dK-5O7"/>
+                            <constraint firstAttribute="trailing" secondItem="Prm-ah-FUb" secondAttribute="trailing" id="ZL7-6X-bL1"/>
+                            <constraint firstItem="Prm-ah-FUb" firstAttribute="top" secondItem="xyo-CG-0hv" secondAttribute="bottom" constant="8" id="dyE-kc-Z9G"/>
+                            <constraint firstItem="Prm-ah-FUb" firstAttribute="height" secondItem="MTH-iF-FQb" secondAttribute="height" multiplier="0.3" id="sQz-9X-VWm"/>
+                        </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <keyCommands/>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="imageBaseName" value="paging"/>
-                    </userDefinedRuntimeAttributes>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4tf-lJ-DF7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -565,7 +661,7 @@ Create a plist and set the name to customize</string>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="xcj-MQ-u4z" kind="show" identifier="ModalDismissPush" id="Jx3-cw-byz"/>
+                                    <segue destination="xcj-MQ-u4z" kind="show" identifier="ModalDismissPush" animates="NO" id="Jx3-cw-byz"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rmf-uC-gdG">
@@ -640,7 +736,7 @@ Tap the star to see what happen</string>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="navigationBackToRoot:" destination="DuT-Ku-5Jo" eventType="touchUpInside" id="Z8H-sB-OYz"/>
+                                    <action selector="navigationBackToRoot:" destination="DuT-Ku-5Jo" eventType="touchUpInside" id="1LG-gO-hU9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -714,7 +810,7 @@ Tap the star to see what happen</string>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="DuT-Ku-5Jo" kind="custom" customClass="AppearSegue" customModule="PilotPlant" id="Azn-Ke-C4z"/>
+                                    <segue destination="DuT-Ku-5Jo" kind="show" animates="NO" id="iPo-ta-eKg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -774,7 +870,7 @@ Tap the star to see what happen</string>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Ol2-hc-Dhl" kind="custom" customClass="AppearSegue" customModule="PilotPlant" id="CeT-BI-XWR"/>
+                                    <segue destination="Ol2-hc-Dhl" kind="show" animates="NO" id="Ead-OI-DUk"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -920,6 +1016,28 @@ There will be a change to a view when dismiss modal view in the result of that s
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Am8-ys-XS6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-81" y="393"/>
+        </scene>
+        <!--Paging Scene-->
+        <scene sceneID="kJd-CB-Tgz">
+            <objects>
+                <viewController id="aue-Ce-RIL" customClass="PagingScene" customModule="PilotPlantCatalog" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BLW-vs-Abi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="218"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="imageBaseName" value="paging"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="pageIndicator" value="NO"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="pageSpace">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GYQ-JO-jdE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2254" y="-875"/>
         </scene>
     </scenes>
     <resources>

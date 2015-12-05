@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "942298B9B4489A8B164BFD5A00D7D82DEB83C7F2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "942298B9B4489A8B164BFD5A00D7D82DEB83C7F2" : 0,
+    "1D8316277B96A08A3610F7FB0D523D6D748EE7A2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "87D5F2DC-58F8-4C99-A033-1DD33CC75E7D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "942298B9B4489A8B164BFD5A00D7D82DEB83C7F2" : "PilotPlantCatalog\/",
+    "1D8316277B96A08A3610F7FB0D523D6D748EE7A2" : "PilotPlant\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PilotPlantCatalog",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PilotPlantCatalog.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/lingostar\/pilotplant.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1D8316277B96A08A3610F7FB0D523D6D748EE7A2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CodersHigh\/PilotPlantCatalog.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "942298B9B4489A8B164BFD5A00D7D82DEB83C7F2"
+    }
+  ]
+}

@@ -13,6 +13,30 @@ import PilotPlant
 private var backButtonHidden : Bool = false
 private var tapKBDismiss : Bool = false
 
+class PopoverHostScene: CHPopoverHostViewController {
+    
+}
+
+class ActivityScene: CHActivityViewController {
+    
+}
+
+class AlertScene: CHAlertViewController {
+    @IBInspectable var alertStyle:Bool = false
+    @IBInspectable var alertTitle:String = ""
+    @IBInspectable var message:String = ""
+    @IBInspectable var redButton:String? = nil
+    @IBInspectable var buttonNames:String = ""
+    
+    override func viewDidLoad() {
+        super.alertStyle_inspect = alertStyle
+        super.alertTitle_inspect = alertTitle
+        super.message_inspect = message
+        super.redButton_inspect = redButton
+        super.buttonNames_inspect = buttonNames
+    }
+}
+
 class PickerScene: CHPickerViewController {
     @IBInspectable var column : Int = 1
     @IBInspectable var plistName : String = ""

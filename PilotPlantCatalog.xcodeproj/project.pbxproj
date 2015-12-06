@@ -20,6 +20,7 @@
 		2CBD64241C12FF71003399CC /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBD64231C12FF71003399CC /* UIViewController+Navigation.swift */; };
 		2CBD64251C12FF9D003399CC /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBD64211C12FF6A003399CC /* PilotPlant.framework */; };
 		2CBD64261C12FF9D003399CC /* PilotPlant.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBD64211C12FF6A003399CC /* PilotPlant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2CCCA8E61C1335C800666311 /* theCrazyOne.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2CCCA8E51C1335C800666311 /* theCrazyOne.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		2C906FAD1BEA3F7B00F5A9D5 /* CityPicker.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityPicker.plist; sourceTree = "<group>"; };
 		2CBD64211C12FF6A003399CC /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PilotPlant.framework; sourceTree = "<group>"; };
 		2CBD64231C12FF71003399CC /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		2CCCA8E51C1335C800666311 /* theCrazyOne.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = theCrazyOne.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 		2C906FAC1BEA3EEB00F5A9D5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2CCCA8E51C1335C800666311 /* theCrazyOne.aiff */,
 				2C906FAD1BEA3F7B00F5A9D5 /* CityPicker.plist */,
 				2C906FA61BEA3ECF00F5A9D5 /* curriculum.pdf */,
 				2C906FA81BEA3ECF00F5A9D5 /* RadCap_small_part.mov */,
@@ -221,6 +224,7 @@
 			files = (
 				2C906F911BEA3E3800F5A9D5 /* LaunchScreen.storyboard in Resources */,
 				2C906FAA1BEA3ECF00F5A9D5 /* PPCatalog.storyboard in Resources */,
+				2CCCA8E61C1335C800666311 /* theCrazyOne.aiff in Resources */,
 				2C906FA91BEA3ECF00F5A9D5 /* curriculum.pdf in Resources */,
 				2C906F8E1BEA3E3800F5A9D5 /* Assets.xcassets in Resources */,
 				2C906FAB1BEA3ECF00F5A9D5 /* RadCap_small_part.mov in Resources */,

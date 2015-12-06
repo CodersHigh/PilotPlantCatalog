@@ -116,8 +116,39 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="Content Views" id="v5J-qd-ikp">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="GWO-78-x65" detailTextLabel="1Ll-VF-B03" rowHeight="54" style="IBUITableViewCellStyleSubtitle" id="mMR-jn-xco">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="dll-hg-eGk" detailTextLabel="n6x-RX-0Xh" rowHeight="54" style="IBUITableViewCellStyleSubtitle" id="4mp-Qz-Xfc">
                                         <rect key="frame" x="0.0" y="270" width="600" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4mp-Qz-Xfc" id="Sjd-JF-L5d">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="53.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Audio Scene" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dll-hg-eGk">
+                                                    <rect key="frame" x="15" y="11" width="91" height="19.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Play .aiff audio file" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n6x-RX-0Xh">
+                                                    <rect key="frame" x="15" y="30.5" width="96.5" height="13.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <connections>
+                                            <segue destination="YXD-WU-OSg" kind="show" id="mxd-AA-E9f"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="GWO-78-x65" detailTextLabel="1Ll-VF-B03" rowHeight="54" style="IBUITableViewCellStyleSubtitle" id="mMR-jn-xco">
+                                        <rect key="frame" x="0.0" y="324" width="600" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mMR-jn-xco" id="mSx-Dy-7CC">
                                             <rect key="frame" x="0.0" y="0.0" width="567" height="53.5"/>
@@ -148,7 +179,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="GCt-RZ-UPf" detailTextLabel="2dg-5M-F08" rowHeight="54" style="IBUITableViewCellStyleSubtitle" id="You-NB-tm3">
-                                        <rect key="frame" x="0.0" y="324" width="600" height="54"/>
+                                        <rect key="frame" x="0.0" y="378" width="600" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="You-NB-tm3" id="2OE-J3-dej">
                                             <rect key="frame" x="0.0" y="0.0" width="567" height="53.5"/>
@@ -179,7 +210,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="N4m-cL-lE1" detailTextLabel="ZU9-fn-LEH" rowHeight="54" style="IBUITableViewCellStyleSubtitle" id="RsJ-Dm-mo8">
-                                        <rect key="frame" x="0.0" y="378" width="600" height="54"/>
+                                        <rect key="frame" x="0.0" y="432" width="600" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RsJ-Dm-mo8" id="Xjp-OP-dfH">
                                             <rect key="frame" x="0.0" y="0.0" width="567" height="53.5"/>
@@ -210,7 +241,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="jqc-4R-Fev" detailTextLabel="CSz-BP-BsM" rowHeight="54" style="IBUITableViewCellStyleSubtitle" id="AtW-Ro-GqJ">
-                                        <rect key="frame" x="0.0" y="432" width="600" height="54"/>
+                                        <rect key="frame" x="0.0" y="486" width="600" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AtW-Ro-GqJ" id="N0V-sT-o1g">
                                             <rect key="frame" x="0.0" y="0.0" width="567" height="53.5"/>
@@ -241,7 +272,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="e4C-Is-Qf6" detailTextLabel="d3p-uX-C1J" rowHeight="54" style="IBUITableViewCellStyleSubtitle" id="gvi-UK-C0I">
-                                        <rect key="frame" x="0.0" y="486" width="600" height="54"/>
+                                        <rect key="frame" x="0.0" y="540" width="600" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gvi-UK-C0I" id="f3i-GG-YTv">
                                             <rect key="frame" x="0.0" y="0.0" width="567" height="53.5"/>
@@ -272,7 +303,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="g4Z-1H-7PQ" detailTextLabel="531-Zz-PZ3" rowHeight="54" style="IBUITableViewCellStyleSubtitle" id="Ka7-bS-LZN">
-                                        <rect key="frame" x="0.0" y="540" width="600" height="54"/>
+                                        <rect key="frame" x="0.0" y="594" width="600" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ka7-bS-LZN" id="HRk-n2-sXm">
                                             <rect key="frame" x="0.0" y="0.0" width="567" height="53.5"/>
@@ -300,7 +331,7 @@
                                         <animations/>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="XZR-4N-SMP" detailTextLabel="Ab8-E6-IuC" rowHeight="54" style="IBUITableViewCellStyleSubtitle" id="oCW-bj-vHi">
-                                        <rect key="frame" x="0.0" y="594" width="600" height="54"/>
+                                        <rect key="frame" x="0.0" y="648" width="600" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oCW-bj-vHi" id="QCh-K3-8x1">
                                             <rect key="frame" x="0.0" y="0.0" width="567" height="53.5"/>
@@ -344,7 +375,7 @@
         <!--Picker View-->
         <scene sceneID="Rfo-S3-GUM">
             <objects>
-                <viewController title="Picker View" id="syb-ws-HzA" customClass="PickerScene" customModule="PilotPlantCatalog" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Picker View" id="syb-ws-HzA" customClass="PickerScene" customModule="Catalog" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Xd5-AV-3Ea"/>
                         <viewControllerLayoutGuide type="bottom" id="THv-Hz-vue"/>
@@ -410,10 +441,47 @@ Create a plist and set the name to customize</string>
             </objects>
             <point key="canvasLocation" x="1537" y="682"/>
         </scene>
+        <!--Audio Scene-->
+        <scene sceneID="ovf-i4-mC2">
+            <objects>
+                <viewController title="Audio Scene" id="YXD-WU-OSg" customClass="AudioScene" customModule="Catalog" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KsQ-TG-Z1Y"/>
+                        <viewControllerLayoutGuide type="bottom" id="Kuh-2Z-kkM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EX4-p3-iaG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WCs-i8-qOJ">
+                                <rect key="frame" x="20" y="28" width="560" height="162.5"/>
+                                <animations/>
+                                <string key="text">Here’s to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They’re not fond of rules. And they have no respect for the status quo. You can quote them, disagree with them, glorify or vilify them. About the only thing you can’t do is ignore them. Because they change things. They push the human race forward. And while some may see them as the crazy ones, we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="WCs-i8-qOJ" secondAttribute="trailing" id="KNW-UC-Gil"/>
+                            <constraint firstItem="WCs-i8-qOJ" firstAttribute="top" secondItem="KsQ-TG-Z1Y" secondAttribute="bottom" constant="8" id="QxN-bi-FOJ"/>
+                            <constraint firstItem="WCs-i8-qOJ" firstAttribute="leading" secondItem="EX4-p3-iaG" secondAttribute="leadingMargin" id="oLw-Eb-YHD"/>
+                        </constraints>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="audioFileName" value="theCrazyOne"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6PZ-ia-BhR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2170" y="661"/>
+        </scene>
         <!--Web View-->
         <scene sceneID="GKe-AI-WlG">
             <objects>
-                <viewController title="Web View" id="NpJ-PZ-KPu" customClass="WebScene" customModule="PilotPlantCatalog" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Web View" id="NpJ-PZ-KPu" customClass="WebScene" customModule="Catalog" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GZU-mr-Irl"/>
                         <viewControllerLayoutGuide type="bottom" id="kVt-PI-bLJ"/>
@@ -463,7 +531,7 @@ Create a plist and set the name to customize</string>
         <!--Image Scroll View-->
         <scene sceneID="hSi-u9-dSt">
             <objects>
-                <viewController title="Image Scroll View" id="KIg-s2-qQJ" customClass="ImageScrollScene" customModule="PilotPlantCatalog" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Image Scroll View" id="KIg-s2-qQJ" customClass="ImageScrollScene" customModule="Catalog" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qyK-Yt-nIv"/>
                         <viewControllerLayoutGuide type="bottom" id="yKU-FL-P9P"/>
@@ -511,7 +579,7 @@ Create a plist and set the name to customize</string>
         <!--Carousel-->
         <scene sceneID="3L4-TL-dAi">
             <objects>
-                <viewController title="Carousel" id="OQQ-fD-mD2" customClass="ImageScrollScene" customModule="PilotPlantCatalog" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Carousel" id="OQQ-fD-mD2" customClass="ImageScrollScene" customModule="Catalog" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="q7M-BX-mqd"/>
                         <viewControllerLayoutGuide type="bottom" id="jaX-XH-lCN"/>
@@ -560,7 +628,7 @@ Create a plist and set the name to customize</string>
         <!--Map View-->
         <scene sceneID="ncC-4n-81Q">
             <objects>
-                <viewController title="Map View" id="sRa-oe-ehU" customClass="MapScene" customModule="PilotPlantCatalog" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Map View" id="sRa-oe-ehU" customClass="MapScene" customModule="Catalog" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nIs-XE-2Uh"/>
                         <viewControllerLayoutGuide type="bottom" id="zVm-oS-hCV"/>
@@ -1020,7 +1088,11 @@ There will be a change to a view when dismiss modal view in the result of that s
         <!--Paging Scene-->
         <scene sceneID="kJd-CB-Tgz">
             <objects>
-                <viewController id="aue-Ce-RIL" customClass="PagingScene" customModule="PilotPlantCatalog" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="aue-Ce-RIL" customClass="PagingScene" customModule="Catalog" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fM7-GK-xcV"/>
+                        <viewControllerLayoutGuide type="bottom" id="JhU-s4-toU"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="BLW-vs-Abi">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="218"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C394D741C14194300AAC637 /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C394D721C14193800AAC637 /* PilotPlant.framework */; };
+		2C394D751C14194300AAC637 /* PilotPlant.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C394D721C14193800AAC637 /* PilotPlant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2C394D771C14194C00AAC637 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C394D761C14194C00AAC637 /* UIViewController+Navigation.swift */; };
 		2C906F871BEA3E3800F5A9D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C906F861BEA3E3800F5A9D5 /* AppDelegate.swift */; };
 		2C906F891BEA3E3800F5A9D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C906F881BEA3E3800F5A9D5 /* ViewController.swift */; };
 		2C906F8E1BEA3E3800F5A9D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C906F8D1BEA3E3800F5A9D5 /* Assets.xcassets */; };
@@ -16,10 +19,6 @@
 		2C906FAA1BEA3ECF00F5A9D5 /* PPCatalog.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C906FA71BEA3ECF00F5A9D5 /* PPCatalog.storyboard */; };
 		2C906FAB1BEA3ECF00F5A9D5 /* RadCap_small_part.mov in Resources */ = {isa = PBXBuildFile; fileRef = 2C906FA81BEA3ECF00F5A9D5 /* RadCap_small_part.mov */; };
 		2C906FAE1BEA3F7B00F5A9D5 /* CityPicker.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C906FAD1BEA3F7B00F5A9D5 /* CityPicker.plist */; };
-		2CBD64221C12FF6A003399CC /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBD64211C12FF6A003399CC /* PilotPlant.framework */; };
-		2CBD64241C12FF71003399CC /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBD64231C12FF71003399CC /* UIViewController+Navigation.swift */; };
-		2CBD64251C12FF9D003399CC /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBD64211C12FF6A003399CC /* PilotPlant.framework */; };
-		2CBD64261C12FF9D003399CC /* PilotPlant.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBD64211C12FF6A003399CC /* PilotPlant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2CCCA8E61C1335C800666311 /* theCrazyOne.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2CCCA8E51C1335C800666311 /* theCrazyOne.aiff */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +39,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2CBD64261C12FF9D003399CC /* PilotPlant.framework in Embed Frameworks */,
+				2C394D751C14194300AAC637 /* PilotPlant.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +47,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C394D721C14193800AAC637 /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PilotPlant.framework; sourceTree = "<group>"; };
+		2C394D761C14194C00AAC637 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 		2C906F831BEA3E3800F5A9D5 /* PilotPlantCatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PilotPlantCatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C906F861BEA3E3800F5A9D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C906F881BEA3E3800F5A9D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,8 +62,6 @@
 		2C906FA71BEA3ECF00F5A9D5 /* PPCatalog.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PPCatalog.storyboard; sourceTree = "<group>"; };
 		2C906FA81BEA3ECF00F5A9D5 /* RadCap_small_part.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = RadCap_small_part.mov; sourceTree = "<group>"; };
 		2C906FAD1BEA3F7B00F5A9D5 /* CityPicker.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityPicker.plist; sourceTree = "<group>"; };
-		2CBD64211C12FF6A003399CC /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PilotPlant.framework; sourceTree = "<group>"; };
-		2CBD64231C12FF71003399CC /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 		2CCCA8E51C1335C800666311 /* theCrazyOne.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = theCrazyOne.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,8 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CBD64221C12FF6A003399CC /* PilotPlant.framework in Frameworks */,
-				2CBD64251C12FF9D003399CC /* PilotPlant.framework in Frameworks */,
+				2C394D741C14194300AAC637 /* PilotPlant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +87,7 @@
 		2C906F7A1BEA3E3800F5A9D5 = {
 			isa = PBXGroup;
 			children = (
-				2CBD64211C12FF6A003399CC /* PilotPlant.framework */,
+				2C394D721C14193800AAC637 /* PilotPlant.framework */,
 				2C906F851BEA3E3800F5A9D5 /* PilotPlantCatalog */,
 				2C906F9A1BEA3E3800F5A9D5 /* PilotPlantCatalogUITests */,
 				2C906F841BEA3E3800F5A9D5 /* Products */,
@@ -109,8 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				2C906F861BEA3E3800F5A9D5 /* AppDelegate.swift */,
+				2C394D761C14194C00AAC637 /* UIViewController+Navigation.swift */,
 				2C906F881BEA3E3800F5A9D5 /* ViewController.swift */,
-				2CBD64231C12FF71003399CC /* UIViewController+Navigation.swift */,
 				2C906FAC1BEA3EEB00F5A9D5 /* Resources */,
 				2C906FA71BEA3ECF00F5A9D5 /* PPCatalog.storyboard */,
 				2C906F8D1BEA3E3800F5A9D5 /* Assets.xcassets */,
@@ -246,7 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CBD64241C12FF71003399CC /* UIViewController+Navigation.swift in Sources */,
+				2C394D771C14194C00AAC637 /* UIViewController+Navigation.swift in Sources */,
 				2C906F891BEA3E3800F5A9D5 /* ViewController.swift in Sources */,
 				2C906F871BEA3E3800F5A9D5 /* AppDelegate.swift in Sources */,
 			);

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dqq-o7-NaH">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Appear-->
+        <scene sceneID="i9l-4h-pxN">
+            <objects>
+                <viewController id="DuT-Ku-5Jo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f8s-NU-HHQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="uMo-HA-Jzq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aqj-di-g51">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="star_orange" translatesAutoresizingMaskIntoConstraints="NO" id="IPD-gp-AY3">
+                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="151-Le-KxE">
+                                <rect key="frame" x="20" y="88" width="560" height="62"/>
+                                <animations/>
+                                <string key="text">Appear is the most easiest way to show the chage of you view.
+
+Tap the star to see what happen</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gUx-IJ-4uA">
+                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                                <animations/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLT-8E-xht">
+                                <rect key="frame" x="493" y="562" width="91" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Back To Root">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="navigationBackToRoot:" destination="DuT-Ku-5Jo" eventType="touchUpInside" id="1LG-gO-hU9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="RLT-8E-xht" secondAttribute="trailing" constant="16" id="22W-tS-Fhe"/>
+                            <constraint firstItem="uMo-HA-Jzq" firstAttribute="top" secondItem="RLT-8E-xht" secondAttribute="bottom" constant="8" id="3EE-KQ-vvX"/>
+                            <constraint firstItem="151-Le-KxE" firstAttribute="leading" secondItem="aqj-di-g51" secondAttribute="leadingMargin" id="8SC-XG-Usd"/>
+                            <constraint firstItem="gUx-IJ-4uA" firstAttribute="centerY" secondItem="IPD-gp-AY3" secondAttribute="centerY" id="Hd6-M3-cEN"/>
+                            <constraint firstItem="gUx-IJ-4uA" firstAttribute="width" secondItem="IPD-gp-AY3" secondAttribute="width" id="L5v-Cq-DZC"/>
+                            <constraint firstItem="151-Le-KxE" firstAttribute="top" secondItem="f8s-NU-HHQ" secondAttribute="bottom" constant="24" id="LIe-MP-lBn"/>
+                            <constraint firstItem="IPD-gp-AY3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="aqj-di-g51" secondAttribute="leadingMargin" priority="750" constant="24" id="W59-Ti-qiT"/>
+                            <constraint firstAttribute="centerX" secondItem="IPD-gp-AY3" secondAttribute="centerX" id="aS1-ku-5le"/>
+                            <constraint firstAttribute="centerY" secondItem="IPD-gp-AY3" secondAttribute="centerY" id="cSE-SQ-uP6"/>
+                            <constraint firstItem="IPD-gp-AY3" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="uMo-HA-Jzq" secondAttribute="top" priority="750" constant="-24" id="dBL-9y-WLw"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="IPD-gp-AY3" secondAttribute="trailing" priority="750" constant="24" id="hwb-vd-RXP"/>
+                            <constraint firstItem="gUx-IJ-4uA" firstAttribute="height" secondItem="IPD-gp-AY3" secondAttribute="height" id="jQy-uE-kLk"/>
+                            <constraint firstItem="151-Le-KxE" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="IPD-gp-AY3" secondAttribute="top" priority="750" constant="-24" id="poc-PI-TnK"/>
+                            <constraint firstItem="gUx-IJ-4uA" firstAttribute="centerX" secondItem="IPD-gp-AY3" secondAttribute="centerX" id="tn1-OT-gWj"/>
+                            <constraint firstItem="151-Le-KxE" firstAttribute="trailing" secondItem="aqj-di-g51" secondAttribute="trailingMargin" id="u4w-8n-anl"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="poc-PI-TnK"/>
+                                <exclude reference="W59-Ti-qiT"/>
+                                <exclude reference="dBL-9y-WLw"/>
+                                <exclude reference="hwb-vd-RXP"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Appear" id="Hoj-se-7VP"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="backHidden" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Y6-KC-yb8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2842" y="-1649"/>
+        </scene>
+        <!--Appear-->
+        <scene sceneID="eXF-YC-8dV">
+            <objects>
+                <viewController id="Ol2-hc-Dhl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gIs-bj-H6U"/>
+                        <viewControllerLayoutGuide type="bottom" id="BED-uX-tKW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Vg-vM-3tI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="gno-GS-B03">
+                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLN-r9-7hW">
+                                <rect key="frame" x="20" y="88" width="560" height="62"/>
+                                <animations/>
+                                <string key="text">Appear is the most easiest way to show the chage of you view.
+
+Tap the star to see what happen</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ynk-3a-BeV">
+                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                                <animations/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DuT-Ku-5Jo" kind="show" animates="NO" id="iPo-ta-eKg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="gno-GS-B03" secondAttribute="centerX" id="Bla-uP-FNM"/>
+                            <constraint firstItem="ynk-3a-BeV" firstAttribute="height" secondItem="gno-GS-B03" secondAttribute="height" id="I2J-IC-rCv"/>
+                            <constraint firstItem="ynk-3a-BeV" firstAttribute="centerX" secondItem="gno-GS-B03" secondAttribute="centerX" id="Pp4-Am-Fow"/>
+                            <constraint firstItem="pLN-r9-7hW" firstAttribute="trailing" secondItem="9Vg-vM-3tI" secondAttribute="trailingMargin" id="ZGJ-kL-TLd"/>
+                            <constraint firstItem="pLN-r9-7hW" firstAttribute="leading" secondItem="9Vg-vM-3tI" secondAttribute="leadingMargin" id="dkq-b7-fDt"/>
+                            <constraint firstAttribute="centerY" secondItem="gno-GS-B03" secondAttribute="centerY" id="faH-7o-k57"/>
+                            <constraint firstItem="ynk-3a-BeV" firstAttribute="centerY" secondItem="gno-GS-B03" secondAttribute="centerY" id="jz4-Vz-dZs"/>
+                            <constraint firstItem="pLN-r9-7hW" firstAttribute="top" secondItem="gIs-bj-H6U" secondAttribute="bottom" constant="24" id="kCk-Ou-JZr"/>
+                            <constraint firstItem="ynk-3a-BeV" firstAttribute="width" secondItem="gno-GS-B03" secondAttribute="width" id="yxP-RQ-Cch"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Appear" id="hzp-ss-Nf4"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="backHidden" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zpH-s0-nER" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2164" y="-1649"/>
+        </scene>
+        <!--Appear-->
+        <scene sceneID="OmT-Dn-O3a">
+            <objects>
+                <viewController id="dqq-o7-NaH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6QR-cc-fZe"/>
+                        <viewControllerLayoutGuide type="bottom" id="d7G-j9-CB9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AXM-l1-HLp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="star_dimmed" translatesAutoresizingMaskIntoConstraints="NO" id="4W8-cx-1R3">
+                                <rect key="frame" x="151" y="150" width="298" height="299"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ilL-j2-maO">
+                                <rect key="frame" x="16" y="88" width="568" height="62"/>
+                                <animations/>
+                                <string key="text">Appear is the most easiest way to show the chage of you view.
+
+Tap the star to see what happen</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xeb-95-5xD">
+                                <rect key="frame" x="151" y="150" width="298" height="299"/>
+                                <animations/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Ol2-hc-Dhl" kind="show" animates="NO" id="Ead-OI-DUk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="4W8-cx-1R3" secondAttribute="centerX" id="CQI-oR-29j"/>
+                            <constraint firstAttribute="centerY" secondItem="4W8-cx-1R3" secondAttribute="centerY" id="Hs6-AH-e0X"/>
+                            <constraint firstItem="Xeb-95-5xD" firstAttribute="centerX" secondItem="4W8-cx-1R3" secondAttribute="centerX" id="Jp8-TL-pFg"/>
+                            <constraint firstItem="ilL-j2-maO" firstAttribute="leading" secondItem="AXM-l1-HLp" secondAttribute="leadingMargin" id="eSl-7H-GB1"/>
+                            <constraint firstItem="ilL-j2-maO" firstAttribute="top" secondItem="6QR-cc-fZe" secondAttribute="bottom" constant="24" id="nOS-qw-jwE"/>
+                            <constraint firstItem="Xeb-95-5xD" firstAttribute="width" secondItem="4W8-cx-1R3" secondAttribute="width" id="q36-IQ-972"/>
+                            <constraint firstItem="Xeb-95-5xD" firstAttribute="height" secondItem="4W8-cx-1R3" secondAttribute="height" id="rw3-Kq-pjj"/>
+                            <constraint firstItem="ilL-j2-maO" firstAttribute="trailing" secondItem="AXM-l1-HLp" secondAttribute="trailingMargin" id="s3Z-ng-oMf"/>
+                            <constraint firstItem="Xeb-95-5xD" firstAttribute="centerY" secondItem="4W8-cx-1R3" secondAttribute="centerY" id="vlT-r8-ZZK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Appear" id="lcM-Ea-sEb"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO">
+                        <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </simulatedNavigationBarMetrics>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tor-J2-ba1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1485" y="-1649"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="star" width="300" height="300"/>
+        <image name="star_dimmed" width="298" height="299"/>
+        <image name="star_orange" width="300" height="300"/>
+    </resources>
+    <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+</document>

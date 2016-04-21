@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C2B3EAC1C55E16C001210DA /* AppearSegue.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2B3EAB1C55E16C001210DA /* AppearSegue.storyboard */; };
 		2C394D7B1C1485A300AAC637 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C394D7A1C1485A300AAC637 /* UIViewController+Navigation.swift */; };
 		2C394D7F1C14863600AAC637 /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C394D7D1C14862C00AAC637 /* PilotPlant.framework */; };
 		2C394D801C14863600AAC637 /* PilotPlant.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C394D7D1C14862C00AAC637 /* PilotPlant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -47,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C2B3EAB1C55E16C001210DA /* AppearSegue.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AppearSegue.storyboard; sourceTree = "<group>"; };
 		2C394D7A1C1485A300AAC637 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 		2C394D7D1C14862C00AAC637 /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PilotPlant.framework; sourceTree = "<group>"; };
 		2C906F831BEA3E3800F5A9D5 /* PilotPlantCatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PilotPlantCatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +113,7 @@
 				2C906F881BEA3E3800F5A9D5 /* ViewController.swift */,
 				2C906FAC1BEA3EEB00F5A9D5 /* Resources */,
 				2C906FA71BEA3ECF00F5A9D5 /* PPCatalog.storyboard */,
+				2C2B3EAB1C55E16C001210DA /* AppearSegue.storyboard */,
 				2C906F8D1BEA3E3800F5A9D5 /* Assets.xcassets */,
 				2C906F8F1BEA3E3800F5A9D5 /* LaunchScreen.storyboard */,
 				2C906F921BEA3E3800F5A9D5 /* Info.plist */,
@@ -227,6 +230,7 @@
 				2C906F8E1BEA3E3800F5A9D5 /* Assets.xcassets in Resources */,
 				2C906FAB1BEA3ECF00F5A9D5 /* RadCap_small_part.mov in Resources */,
 				2C906FAE1BEA3F7B00F5A9D5 /* CityPicker.plist in Resources */,
+				2C2B3EAC1C55E16C001210DA /* AppearSegue.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
